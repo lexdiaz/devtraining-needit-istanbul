@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="risk_conditions">
+    <risk_conditions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced_condition><![CDATA[// Set the variable 'answer' to true to indicate that this risk condition matches, and false if it does not match the change request
+//
+//   answer = false;
+//   if (current.category == 'Network')
+//      answer = true;]]></advanced_condition>
+        <condition/>
+        <description>There is nobody available</description>
+        <impact>1</impact>
+        <name>There is nobody available</name>
+        <order>500</order>
+        <risk>2</risk>
+        <script_values>// Can script field values here as you would in a business rule&#13;
+//&#13;
+//   if (current.assignment_group.getDisplayValue == "Network") {&#13;
+//      current.risk = 2;&#13;
+//      current.impact = 1;&#13;
+//   } else {&#13;
+//      current.risk = 3;&#13;
+//      current.impact = 2;&#13;
+//   }</script_values>
+        <sys_class_name>risk_conditions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-09 14:59:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e7f5678db5b32003d5df11ebf961939</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>There is nobody available</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>risk_conditions_1e7f5678db5b32003d5df11ebf961939</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-09 15:00:38</sys_updated_on>
+        <table>change_request</table>
+        <use_advanced_condition>false</use_advanced_condition>
+        <use_script_values>false</use_script_values>
+    </risk_conditions>
+</record_update>

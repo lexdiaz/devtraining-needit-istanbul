@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>sysapproval_approver</collection>
+        <email_layout display_value="Demo Layout - Light">993a2d81c33112002841b63b12d3aed4</email_layout>
+        <message/>
+        <message_html><![CDATA[<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;Short description: ${document_id.short_description}&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;Knowledge base: ${document_id.kb_knowledge_base}&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;Category: ${document_id.kb_category}&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;Author: ${document_id.author}&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;Published: ${document_id.published}&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;Owning Group: ${document_id.u_owning_group}&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;&nbsp;&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;&lt;hr /&gt;&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;${mailto:mailto.kbapproval}&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;&lt;hr /&gt;&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;Click here to view or reject the Approval Request: ${URI}&lt;/div&gt;</p>
+<p style="margin: 0px; padding: 0px; border: 0px currentColor; text-align: left; color: #666666; text-transform: none; text-indent: 0px; letter-spacing: normal; font-family: arial, sans-serif; font-size: 14px; font-style: normal; font-weight: normal; word-spacing: 0px; vertical-align: baseline; white-space: normal; orphans: 2; widows: 2; background-color: #ffffff; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&lt;div&gt;Click here to view ${document_id.sys_class_name} Article: ${document_id.URI_REF}&lt;/div&gt;</p>]]></message_html>
+        <message_list/>
+        <message_text><![CDATA[<div>Short description: ${document_id.short_description}</div>
+<div>Knowledge base: ${document_id.kb_knowledge_base}</div>
+<div>Category: ${document_id.kb_category}</div>
+<div>Author: ${document_id.author}</div>
+<div>Published: ${document_id.published}</div>
+<div>Owning Group: ${document_id.u_owning_group}</div>
+<div> </div>
+<div>
+<div><hr /></div>
+</div>
+<div>${mailto:mailto.kbapproval}</div>
+<div>
+<div><hr /></div>
+</div>
+<div>Click here to view or reject the Approval Request: ${URI}</div>
+<div>Click here to view ${document_id.sys_class_name} Article: ${document_id.URI_REF}</div>]]></message_text>
+        <name>temp_KB</name>
+        <sms_alternate/>
+        <subject>${document_id.sys_class_name} Article ${document_id.number} Approval Request</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-08 21:59:51</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>4b2572e4dbd332003d5df11ebf961990</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>temp_KB</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_email_template_4b2572e4dbd332003d5df11ebf961990</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-08 21:59:51</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>
